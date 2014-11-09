@@ -19,8 +19,6 @@ GDeferred
 =========
 GDeferred is a fork of [JDeferred](https://github.com/jdeferred/jdeferred.git) - "Java Deferred/Promise library similar to JQuery's Deferred Object" - reimplemented for GWT.
 
-Inspired by [JQuery](https://github.com/jquery/jquery) and [Android Deferred Object](https://github.com/CodeAndMagic/android-deferred-object).
-
 <a name="features"></a>Features
 --------
 * Deferred Object and Promise
@@ -140,7 +138,7 @@ dm.when(
 * [Javadocs](http://reinert.github.io/gdeferred/javadoc/apidocs/index.html)
 
 ## Downloads
-gDeferred is currently available at maven central.
+GDeferred is currently available at maven central.
 
 ### Maven
 ```
@@ -152,7 +150,7 @@ gDeferred is currently available at maven central.
 ```
 
 ## License
-gDeferred is freely distributable under the [Apache 2.0 License](http://www.apache.org/licenses/LICENSE-2.0.html)
+GDeferred is freely distributable under the [Apache 2.0 License](http://www.apache.org/licenses/LICENSE-2.0.html)
 
 <!-- Google Code for GitHub Visit Conversion Page -->
 <script type="text/javascript">
