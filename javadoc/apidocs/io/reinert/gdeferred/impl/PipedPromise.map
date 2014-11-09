@@ -1,0 +1,8 @@
+<map id="G" name="G">
+<area shape="rect" id="node1_0" href="../Promise.html" title="io.reinert.gdeferred.Promise" alt="" coords="35,10,162,54"/>
+<area shape="rect" id="node1" href="../Promise.html" title="&lt;TABLE&gt;" alt="" coords="25,5,173,59"/>
+<area shape="rect" id="node2_1" href="./PipedPromise.html" title="io.reinert.gdeferred.impl.PipedPromise" alt="" coords="251,57,560,84"/>
+<area shape="rect" id="node2" href="./PipedPromise.html" title="&lt;TABLE&gt;" alt="" coords="240,47,571,95"/>
+<area shape="rect" id="node3_2" href="./DeferredObject.html" title="io.reinert.gdeferred.impl.DeferredObject" alt="" coords="16,95,181,121"/>
+<area shape="rect" id="node3" href="./DeferredObject.html" title="&lt;TABLE&gt;" alt="" coords="5,84,192,132"/>
+</map>

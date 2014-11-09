@@ -1,0 +1,12 @@
+<map id="G" name="G">
+<area shape="rect" id="node1_0" href="./Promise.html" title="io.reinert.gdeferred.Promise" alt="" coords="17,122,143,166"/>
+<area shape="rect" id="node1" href="./Promise.html" title="&lt;TABLE&gt;" alt="" coords="6,117,154,171"/>
+<area shape="rect" id="node2_1" href="./Deferred.html" title="io.reinert.gdeferred.Deferred" alt="" coords="310,10,437,54"/>
+<area shape="rect" id="node2" href="./Deferred.html" title="&lt;TABLE&gt;" alt="" coords="299,5,447,59"/>
+<area shape="rect" id="node3_2" href="./impl/PipedPromise.html" title="io.reinert.gdeferred.impl.PipedPromise" alt="" coords="219,95,528,121"/>
+<area shape="rect" id="node3" href="./impl/PipedPromise.html" title="&lt;TABLE&gt;" alt="" coords="208,84,539,132"/>
+<area shape="rect" id="node4_3" href="./impl/FilteredPromise.html" title="io.reinert.gdeferred.impl.FilteredPromise" alt="" coords="214,167,533,193"/>
+<area shape="rect" id="node4" href="./impl/FilteredPromise.html" title="&lt;TABLE&gt;" alt="" coords="203,156,543,204"/>
+<area shape="rect" id="node5_4" href="./impl/AbstractPromise.html" title="io.reinert.gdeferred.impl.AbstractPromise" alt="" coords="285,239,462,265"/>
+<area shape="rect" id="node5" href="./impl/AbstractPromise.html" title="&lt;TABLE&gt;" alt="" coords="274,228,473,276"/>
+</map>
