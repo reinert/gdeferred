@@ -28,7 +28,7 @@ GDeferred is a fork of [JDeferred](https://github.com/jdeferred/jdeferred.git) -
   * ```.fail(…)```
   * ```.progress(…)```
   * ```.always(…)```
-* Multiple promises (*soon!*)
+* Multiple promises ([soon!](https://github.com/reinert/gdeferred/issues/1))
   * ```.when(p1, p2, p3, …).then(…)```
 * Java Generics support
   * ```Deferred<Integer, Exception, Double> deferred;```
