@@ -84,6 +84,8 @@
 
     <!-- Java -->
     <checkstyle.version>6.0</checkstyle.version>
+    <reinert.checkstyle.version>0.9.0</reinert.checkstyle.version>
+
 
     <!-- Testing -->
     <junit.version>4.11</junit.version>
@@ -141,7 +143,7 @@
           <dependency>
             <groupId>io.reinert.tools</groupId>
             <artifactId>checkstyle</artifactId>
-            <version>1.0.0</version>
+            <version>${reinert.checkstyle.version}</version>
           </dependency>
         </dependencies>
         <executions>
