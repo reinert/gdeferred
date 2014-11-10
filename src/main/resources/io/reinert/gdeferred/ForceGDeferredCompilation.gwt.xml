@@ -16,8 +16,8 @@
   ~ limitations under the License.
   -->
 <module>
-    <!-- Inherit the core Web Toolkit stuff. -->
-    <inherits name="io.reinert.gdeferred.GDeferred"/>
+  <!-- Inherit the core Web Toolkit stuff. -->
+  <inherits name="io.reinert.gdeferred.GDeferred"/>
 
-    <entry-point class="io.reinert.gdeferred.ForceCompilationEntryPoint" />
+  <entry-point class="io.reinert.gdeferred.ForceCompilationEntryPoint"/>
 </module>

@@ -16,8 +16,8 @@
   ~ limitations under the License.
   -->
 <module>
-    <!-- Inherit the core Web Toolkit stuff. -->
-    <inherits name="com.google.gwt.user.User"/>
+  <!-- Inherit the core Web Toolkit stuff. -->
+  <inherits name="com.google.gwt.user.User"/>
 
-    <source path="" excludes="**/*Test.java,**/*TestSuite.java,**/*TestUtil.java,**/*Mock.java,**/*Stub.java"/>
+  <source path="" excludes="**/*Test.java,**/*TestSuite.java,**/*TestUtil.java,**/*Mock.java,**/*Stub.java"/>
 </module>
