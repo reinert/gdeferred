@@ -43,18 +43,19 @@ import io.reinert.gdeferred.Promise;
 public abstract class AbstractPromise<D, F, P> implements Promise<D, F, P> {
 
     protected final Logger log = Logger.getLogger(String.valueOf(AbstractPromise.class));
-    protected final List<AlwaysCallback<D, F>> alwaysCallbacks = new ArrayList<AlwaysCallback<D, F>>();
-    protected final List<DoneCallback<D>> doneCallbacks = new ArrayList<DoneCallback<D>>();
-    protected final List<FailCallback<F>> failCallbacks = new ArrayList<FailCallback<F>>();
-    protected final List<ProgressCallback<P>> progressCallbacks = new ArrayList<ProgressCallback<P>>();
 
     protected F rejectResult;
     protected D resolveResult;
     protected State state = State.PENDING;
 
+    private final List<DoneCallback<D>> doneCallbacks = new ArrayList<DoneCallback<D>>();
+    private final List<FailCallback<F>> failCallbacks = new ArrayList<FailCallback<F>>();
+    private List<AlwaysCallback<D, F>> alwaysCallbacks;
+    private List<ProgressCallback<P>> progressCallbacks;
+
     @Override
     public Promise<D, F, P> always(AlwaysCallback<D, F> callback) {
-        alwaysCallbacks.add(callback);
+        getAlwaysCallbacks().add(callback);
         if (!isPending()) triggerAlways(callback, resolveResult, rejectResult);
         return this;
     }
@@ -90,7 +91,7 @@ public abstract class AbstractPromise<D, F, P> implements Promise<D, F, P> {
 
     @Override
     public Promise<D, F, P> progress(ProgressCallback<P> callback) {
-        progressCallbacks.add(callback);
+        getProgressCallbacks().add(callback);
         return this;
     }
 
@@ -156,13 +157,34 @@ public abstract class AbstractPromise<D, F, P> implements Promise<D, F, P> {
         return new PipedPromise<D, F, P, D_OUT, F_OUT, P_OUT>(this, donePipe, failPipe, progressPipe);
     }
 
+    protected List<AlwaysCallback<D, F>> getAlwaysCallbacks() {
+        if (alwaysCallbacks == null)
+            alwaysCallbacks = new ArrayList<AlwaysCallback<D, F>>();
+        return alwaysCallbacks;
+    }
+
+    protected List<DoneCallback<D>> getDoneCallbacks() {
+        return doneCallbacks;
+    }
+
+    protected List<FailCallback<F>> getFailCallbacks() {
+        return failCallbacks;
+    }
+
+    protected List<ProgressCallback<P>> getProgressCallbacks() {
+        if (progressCallbacks == null)
+            progressCallbacks = new ArrayList<ProgressCallback<P>>();
+        return progressCallbacks;
+    }
+
     protected void triggerAlways(D resolve, F reject) {
-        for (AlwaysCallback<D, F> callback : alwaysCallbacks) {
-            // TODO check why this try/catch statement
-            try {
-                triggerAlways(callback, resolve, reject);
-            } catch (Exception e) {
-                log.log(Level.SEVERE, "An uncaught exception occurred in a AlwaysCallback", e);
+        if (alwaysCallbacks != null) {
+            for (AlwaysCallback<D, F> callback : alwaysCallbacks) {
+                try {
+                    triggerAlways(callback, resolve, reject);
+                } catch (Exception e) {
+                    log.log(Level.SEVERE, "An uncaught exception occurred in a AlwaysCallback", e);
+                }
             }
         }
     }
@@ -173,7 +195,6 @@ public abstract class AbstractPromise<D, F, P> implements Promise<D, F, P> {
 
     protected void triggerDone(D resolved) {
         for (DoneCallback<D> callback : doneCallbacks) {
-            // TODO check why this try/catch statement
             try {
                 triggerDone(callback, resolved);
             } catch (Exception e) {
@@ -188,7 +209,6 @@ public abstract class AbstractPromise<D, F, P> implements Promise<D, F, P> {
 
     protected void triggerFail(F rejected) {
         for (FailCallback<F> callback : failCallbacks) {
-            // TODO check why this try/catch statement
             try {
                 triggerFail(callback, rejected);
             } catch (Exception e) {
@@ -202,12 +222,13 @@ public abstract class AbstractPromise<D, F, P> implements Promise<D, F, P> {
     }
 
     protected void triggerProgress(P progress) {
-        for (ProgressCallback<P> callback : progressCallbacks) {
-            // TODO check why this try/catch statement
-            try {
-                triggerProgress(callback, progress);
-            } catch (Exception e) {
-                log.log(Level.SEVERE, "An uncaught exception occurred in a ProgressCallback", e);
+        if (progressCallbacks != null) {
+            for (ProgressCallback<P> callback : progressCallbacks) {
+                try {
+                    triggerProgress(callback, progress);
+                } catch (Exception e) {
+                    log.log(Level.SEVERE, "An uncaught exception occurred in a ProgressCallback", e);
+                }
             }
         }
     }
