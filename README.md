@@ -143,7 +143,7 @@ GDeferred is currently available at maven central.
 ### Maven
 ```
 <dependency>
-    <groupId>io.reinert</groupId>
+    <groupId>io.reinert.gdeferred</groupId>
     <artifactId>gdeferred</artifactId>
     <version>0.9.0</version>
 </dependency>
