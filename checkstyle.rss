@@ -60,119 +60,7 @@ under the License.
               </tr>
                           <tr>
                 <td>
-                  <a href="http://reinert.org/checkstyle.html#io.reinert.gdeferred.DoneFilter.java">io/reinert/gdeferred/DoneFilter.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  1
-                </td>
-                <td>
-                  0
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="http://reinert.org/checkstyle.html#io.reinert.gdeferred.NoOpProgressFilter.java">io/reinert/gdeferred/NoOpProgressFilter.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  1
-                </td>
-                <td>
-                  0
-                </td>
-              </tr>
-                          <tr>
-                <td>
                   <a href="http://reinert.org/checkstyle.html#io.reinert.gdeferred.DonePipe.java">io/reinert/gdeferred/DonePipe.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  1
-                </td>
-                <td>
-                  0
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="http://reinert.org/checkstyle.html#io.reinert.gdeferred.DoneCallback.java">io/reinert/gdeferred/DoneCallback.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  1
-                </td>
-                <td>
-                  0
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="http://reinert.org/checkstyle.html#io.reinert.gdeferred.FailCallback.java">io/reinert/gdeferred/FailCallback.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  1
-                </td>
-                <td>
-                  0
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="http://reinert.org/checkstyle.html#io.reinert.gdeferred.impl.PipedPromise.java">io/reinert/gdeferred/impl/PipedPromise.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  1
-                </td>
-                <td>
-                  0
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="http://reinert.org/checkstyle.html#io.reinert.gdeferred.FailFilter.java">io/reinert/gdeferred/FailFilter.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  1
-                </td>
-                <td>
-                  0
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="http://reinert.org/checkstyle.html#io.reinert.gdeferred.ForceCompilationEntryPoint.java">io/reinert/gdeferred/ForceCompilationEntryPoint.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  1
-                </td>
-                <td>
-                  0
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="http://reinert.org/checkstyle.html#io.reinert.gdeferred.NoOpDoneFilter.java">io/reinert/gdeferred/NoOpDoneFilter.java</a>
                 </td>
                 <td>
                   0
@@ -200,7 +88,7 @@ under the License.
               </tr>
                           <tr>
                 <td>
-                  <a href="http://reinert.org/checkstyle.html#io.reinert.gdeferred.ProgressFilter.java">io/reinert/gdeferred/ProgressFilter.java</a>
+                  <a href="http://reinert.org/checkstyle.html#io.reinert.gdeferred.ForceCompilationEntryPoint.java">io/reinert/gdeferred/ForceCompilationEntryPoint.java</a>
                 </td>
                 <td>
                   0
@@ -242,35 +130,7 @@ under the License.
               </tr>
                           <tr>
                 <td>
-                  <a href="http://reinert.org/checkstyle.html#io.reinert.gdeferred.ProgressPipe.java">io/reinert/gdeferred/ProgressPipe.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  1
-                </td>
-                <td>
-                  0
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="http://reinert.org/checkstyle.html#io.reinert.gdeferred.FailPipe.java">io/reinert/gdeferred/FailPipe.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  1
-                </td>
-                <td>
-                  0
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="http://reinert.org/checkstyle.html#io.reinert.gdeferred.Promise.java">io/reinert/gdeferred/Promise.java</a>
+                  <a href="http://reinert.org/checkstyle.html#io.reinert.gdeferred.ProgressCallback.java">io/reinert/gdeferred/ProgressCallback.java</a>
                 </td>
                 <td>
                   0
@@ -298,7 +158,63 @@ under the License.
               </tr>
                           <tr>
                 <td>
-                  <a href="http://reinert.org/checkstyle.html#io.reinert.gdeferred.ProgressCallback.java">io/reinert/gdeferred/ProgressCallback.java</a>
+                  <a href="http://reinert.org/checkstyle.html#io.reinert.gdeferred.Promise.java">io/reinert/gdeferred/Promise.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  1
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://reinert.org/checkstyle.html#io.reinert.gdeferred.FailCallback.java">io/reinert/gdeferred/FailCallback.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  1
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://reinert.org/checkstyle.html#io.reinert.gdeferred.ProgressPipe.java">io/reinert/gdeferred/ProgressPipe.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  1
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://reinert.org/checkstyle.html#io.reinert.gdeferred.NoOpDoneFilter.java">io/reinert/gdeferred/NoOpDoneFilter.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  1
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://reinert.org/checkstyle.html#io.reinert.gdeferred.FailPipe.java">io/reinert/gdeferred/FailPipe.java</a>
                 </td>
                 <td>
                   0
@@ -313,6 +229,90 @@ under the License.
                           <tr>
                 <td>
                   <a href="http://reinert.org/checkstyle.html#io.reinert.gdeferred.AlwaysCallback.java">io/reinert/gdeferred/AlwaysCallback.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  1
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://reinert.org/checkstyle.html#io.reinert.gdeferred.FailFilter.java">io/reinert/gdeferred/FailFilter.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  1
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://reinert.org/checkstyle.html#io.reinert.gdeferred.ProgressFilter.java">io/reinert/gdeferred/ProgressFilter.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  1
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://reinert.org/checkstyle.html#io.reinert.gdeferred.DoneFilter.java">io/reinert/gdeferred/DoneFilter.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  1
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://reinert.org/checkstyle.html#io.reinert.gdeferred.NoOpProgressFilter.java">io/reinert/gdeferred/NoOpProgressFilter.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  1
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://reinert.org/checkstyle.html#io.reinert.gdeferred.impl.PipedPromise.java">io/reinert/gdeferred/impl/PipedPromise.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  1
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://reinert.org/checkstyle.html#io.reinert.gdeferred.DoneCallback.java">io/reinert/gdeferred/DoneCallback.java</a>
                 </td>
                 <td>
                   0
