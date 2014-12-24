@@ -17,6 +17,8 @@
 package io.reinert.gdeferred;
 
 /**
+ * Filter callback for monitoring progress.
+ *
  * @param <P>     Type of the input
  * @param <P_OUT> Type of the output from this filter
  *

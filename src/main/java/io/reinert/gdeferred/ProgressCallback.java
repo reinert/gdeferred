@@ -17,6 +17,8 @@
 package io.reinert.gdeferred;
 
 /**
+ * Callback for monitoring promises progress.
+ *
  * @param <P> The type of progress object
  *
  * @see Deferred#notify(Object)

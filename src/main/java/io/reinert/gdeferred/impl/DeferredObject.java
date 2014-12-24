@@ -21,7 +21,7 @@ import io.reinert.gdeferred.Promise;
 
 /**
  * An implementation of {@link io.reinert.gdeferred.Deferred} interface.
- * <p/>
+ *
  * <pre>
  * <code>
  * final {@link io.reinert.gdeferred.Deferred} deferredObject = new {@link DeferredObject}
@@ -38,9 +38,9 @@ import io.reinert.gdeferred.Promise;
  * </code>
  * </pre>
  *
- * @param <D> Type of DoneCallback
- * @param <F> Type of FailCallback
- * @param <P> Type of ProgressCallback
+ * @param <D> type of DoneCallback
+ * @param <F> type of FailCallback
+ * @param <P> type of ProgressCallback
  *
  * @see io.reinert.gdeferred.DoneCallback
  * @see io.reinert.gdeferred.FailCallback

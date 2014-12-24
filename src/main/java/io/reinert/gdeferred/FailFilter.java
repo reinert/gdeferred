@@ -17,6 +17,8 @@
 package io.reinert.gdeferred;
 
 /**
+ * Filter callback to handle promise rejection.
+ *
  * @param <F>     Type of the input
  * @param <F_OUT> Type of the output from this filter
  *

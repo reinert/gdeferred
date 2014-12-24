@@ -17,12 +17,15 @@
 package io.reinert.gdeferred;
 
 /**
- * Deferred interface to trigger an event (resolve, reject, notify). Subsequently, this will allow Promise observers to
- * listen in on the event (done, fail, progress).
+ * Deferred interface to trigger an event (resolve, reject, notify).
+ * <br>
+ * Subsequently, this will allow Promise observers to listen in on the event (done, fail, progress).
  *
  * @param <D> Type used for {@link #resolve(Object)}
  * @param <F> Type used for {@link #reject(Object)}
  * @param <P> Type used for {@link #notify(Object)}
+ *
+ * @author Ray Tsang
  *
  * @see io.reinert.gdeferred.impl.DeferredObject
  */
@@ -31,7 +34,7 @@ public interface Deferred<D, F, P> extends Promise<D, F, P> {
     /**
      * This should be called when a task is still executing and progress had been made, E.g., during a file download,
      * notify the download progress.
-     * <p/>
+     *
      * <pre>
      * <code>
      * {@link Deferred} deferredObject = new {@link io.reinert.gdeferred.impl.DeferredObject}();
@@ -63,7 +66,7 @@ public interface Deferred<D, F, P> extends Promise<D, F, P> {
 
     /**
      * This should be called when a task has completed unsuccessfully, i.e., a failure may have occurred.
-     * <p/>
+     *
      * <pre>
      * <code>
      * {@link Deferred} deferredObject = new {@link io.reinert.gdeferred.impl.DeferredObject}();
@@ -88,7 +91,7 @@ public interface Deferred<D, F, P> extends Promise<D, F, P> {
 
     /**
      * This should be called when a task has completed successfully.
-     * <p/>
+     *
      * <pre>
      * <code>
      * {@link Deferred} deferredObject = new {@link io.reinert.gdeferred.impl.DeferredObject}();

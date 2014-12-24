@@ -17,6 +17,8 @@
 package io.reinert.gdeferred;
 
 /**
+ * Pipe callback for monitoring progress.
+ *
  * @param <P>     Type of the input
  * @param <D_OUT> Type of the done output from this filter
  * @param <F_OUT> Type of the fail output from this filter
