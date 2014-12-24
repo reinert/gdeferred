@@ -25,7 +25,7 @@
 
   <groupId>io.reinert.gdeferred</groupId>
   <artifactId>gdeferred</artifactId>
-  <version>0.9.0</version>
+  <version>1.0.0-SNAPSHOT</version>
   <name>GDeferred</name>
   <inceptionYear>2014</inceptionYear>
   <description>GWT Deferred API similar to JQuery's.</description>
