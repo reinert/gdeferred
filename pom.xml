@@ -100,7 +100,7 @@
 
 
     <!-- Testing -->
-    <junit.version>4.11</junit.version>
+    <junit.version>4.13.1</junit.version>
 
     <!-- GitHub Sites -->
     <github.version>0.10</github.version>
